@@ -1,0 +1,27 @@
+{
+  "name": "node.koa.webpack.starter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack-watch-server"
+  },
+  "author": "Dr. Patrick Bartsch",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/koa": "^2.0.43",
+    "@types/koa-bodyparser": "^3.0.26",
+    "@types/koa-router": "^7.0.27",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-watch-server": "^1.2.1"
+  },
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.3.0"
+  }
+}
