@@ -12,9 +12,8 @@ Please find a detailled explaination of why I chose to use which component and a
 ### Node JS
 Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js is mainly used for backend and build chain tasks. For more information, visit (https://nodejs.org/en/)
 
-### ExpressJS
-Express is a project of the Node.js Foundation, it is a robust web framework for NodeJS. The Express framework allows building backend services with REST-APIs.
-For more detailed information, look here : (https://expressjs.com/)
+### KoaJS
+Koa is a new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs. Through leveraging generators Koa allows you to ditch callbacks and greatly increase error-handling. Koa does not bundle any middleware within core, and provides an elegant suite of methods that make writing servers fast and enjoyable. Find more info on (http://koajs.com/).
 
 ### WebPack
 Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset. 
