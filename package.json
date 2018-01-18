@@ -5,8 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "watch": "webpack-watch-server"
+    "build:prod": "webpack --config webpack.config.prod.js",
+    "build:dev": "webpack --config webpack.config.js",
+    "watch": "webpack-watch-server --config webpack.config.js"
   },
   "author": "Dr. Patrick Bartsch",
   "license": "MIT",
@@ -16,6 +17,7 @@
     "@types/koa-router": "^7.0.27",
     "ts-loader": "^3.2.0",
     "typescript": "^2.6.2",
+    "uglifyjs-webpack-plugin": "^1.1.6",
     "webpack": "^3.10.0",
     "webpack-watch-server": "^1.2.1"
   },
